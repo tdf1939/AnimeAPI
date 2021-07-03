@@ -15,6 +15,7 @@ func main() {
 	// }
 	// fmt.Printf("%+v\n", data)
 	//画作排行榜
+	//
 	a := pixiv.RankValue{Mode: "daily_r18", Type: "illust", Page: 1, Date: "2021-06-15"}
 	b, err := a.Rank()
 	if err != nil {
